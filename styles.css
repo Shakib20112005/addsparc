@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.add-product {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-product input {
+    margin-right: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+.add-product button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-product button:hover {
+    background-color: #45a049;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 1.2em;
+    color: #333;
+}
+
+button.save-bill, button.print-bill {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.save-bill:hover, button.print-bill:hover {
+    background-color: #0056b3;
+}
+
+.day-book-section {
+    margin-top: 50px;
+}
+
+.day-book-section table {
+    margin-top: 20px;
+}
+
+button.print-bill {
+    background-color: #28a745;
+}
+
+button.print-bill:hover {
+    background-color: #218838;
+}
